@@ -1,0 +1,42 @@
+{
+  "user_context": {
+    "name": "Alex",
+    "has_umbrella": true,
+    "prefers_breakfast_stop": true,
+    "location_home": "Endla 15, Tallinn",
+    "commute_habits": {"avg_fuel_consumption_l100km": 8.5}
+  },
+  "external_data": {
+    "weather": {
+      "hourly_forecast": [
+        {"time": "09:00", "temp": 14, "wind_speed_ms": 8, "feels_like": 11, "condition": "Cloudy", "rain_chance": 10},
+        {"time": "12:00", "temp": 17, "wind_speed_ms": 3, "feels_like": 17, "condition": "Sunny", "rain_chance": 0},
+        {"time": "17:00", "temp": 15, "wind_speed_ms": 10, "feels_like": 12, "condition": "Rainy", "rain_chance": 60}
+      ]
+    },
+    "market": {
+      "petrol_price_eur": 1.72,
+      "bolt_scooter_base_price": 1.00,
+      "bolt_scooter_per_min": 0.20
+    },
+    "traffic": {"status": "Heavy", "delay_multiplier": 1.45},
+    "scooters_nearby": 4
+  },
+  "calendar_events": [
+    {
+      "title": "Morning Sync",
+      "start": "09:00", "dist_km": 4, 
+      "location": "Office", "needs_groceries": false
+    },
+    {
+      "title": "Visit Grandma",
+      "start": "13:00", "dist_km": 25, 
+      "location": "Outskirts", "needs_groceries": false
+    },
+    {
+      "title": "Gym & Social",
+      "start": "18:00", "dist_km": 3, 
+      "location": "City Center", "needs_groceries": true
+    }
+  ]
+}

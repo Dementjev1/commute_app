@@ -13,7 +13,7 @@ def load_prompt(filename="system_prompt.txt"):
 
 def get_ai_recommendation(data):
     # Use your key here
-    api_key = "AIzaSyDjifqlvuDbT_V0_QWNQdgZYvIWfP-BUHQ"
+    api_key = os.environ.get('GOOGLE_API_KEY')
     
     if not api_key:
         return {"error": "No API Key"}

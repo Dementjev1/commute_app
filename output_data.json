@@ -1,0 +1,50 @@
+[
+  {
+    "event_title": "Morning Sync",
+    "leave_car_recommendation": "Yes",
+    "alternative_mode": "Scooter",
+    "scores": {
+      "car_utility": 25.17,
+      "scooter_viability": 45,
+      "walk_viability": 0
+    },
+    "reasoning": "Heavy traffic and office parking fees make driving inefficient, while the distance is too long for a comfortable walk. A scooter bypasses the 1.45x traffic delay despite the 11°C morning chill.",
+    "savings_eur": 0.58
+  },
+  {
+    "event_title": "Visit Grandma",
+    "leave_car_recommendation": "No",
+    "alternative_mode": "None",
+    "scores": {
+      "car_utility": 100,
+      "scooter_viability": 0,
+      "walk_viability": 0
+    },
+    "reasoning": "The 25km distance triggers a mandatory car requirement for safety and range. Micromobility is mathematically non-viable for long-distance suburban trips.",
+    "savings_eur": 0.00
+  },
+  {
+    "event_title": "Gym & Social",
+    "leave_car_recommendation": "No",
+    "alternative_mode": "None",
+    "scores": {
+      "car_utility": 95.17,
+      "scooter_viability": 0,
+      "walk_viability": 0
+    },
+    "reasoning": "The 60% rain chance and grocery requirements provide a significant utility buff to the car's cabin. Physical load and wet conditions make walking or scooting a high-friction choice.",
+    "savings_eur": 0.00
+  },
+  {
+    "event_title": "Visit Friend",
+    "leave_car_recommendation": "Yes",
+    "alternative_mode": "Walk",
+    "scores": {
+      "car_utility": 35.17,
+      "scooter_viability": 85,
+      "walk_viability": 105
+    },
+    "reasoning": "At 1.2km, driving is slower than walking door-to-door due to 'Lazy Car' penalties and traffic. The micro-walk bonus and clear evening skies make walking the most efficient and comfortable choice.",
+    "savings_eur": 0.18
+  }
+]

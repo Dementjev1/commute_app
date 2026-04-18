@@ -5,7 +5,7 @@ A context-aware reasoning engine built with **Gemini 2.0 Flash** that nudges use
 ## 🚀 Key Features
 - **Dynamic Car Utility Scoring:** Starts with an 80-point "driving tax" and adjusts for parking difficulty and traffic delays.
 - **Thermal Comfort Analysis:** Calculates wind-chill and temperature friction specifically for scooters and walking.
-- **Decoupled Logic Policy:** Reasoning logic is stored in `system_prompt.txt`, allowing for "No-Code" tuning of mobility policies.
+- **Decoupled Logic Policy:** Reasoning logic is stored in `prompt.txt`, allowing for "No-Code" tuning of mobility policies.
 - **Micro-Mobility Optimization:** Penalizes "Lazy Car" trips (<2km) and "Overkill Scooter" trips (<1.5km).
 
 ## 🛠 Tech Stack

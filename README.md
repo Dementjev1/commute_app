@@ -2,6 +2,12 @@
 
 A context-aware reasoning engine built with **Gemini 2.0 Flash** that nudges users toward sustainable transport by calculating the true "friction" of urban travel.
 
+## 📁 Repository Breakdown
+- **`app.py`**: The core integration using the **Gemini 2.0 Flash SDK**.
+- **`prompt.txt`**: The decoupled **AI Logic Policy**. By separating the "Brain" (logic) from the "Plumbing" (code), we can update mobility policies without a redeploy.
+- **`commute_data.json`**: Real-world scenarios (The Morning Sync, The Grandma Trip, The Grocery Run).
+- **`output_data.json`**: Cached AI reasoning results, serving as a high-availability fallback for API rate limits.
+
 ## 🚀 Key Features
 - **Dynamic Car Utility Scoring:** Starts with an 80-point "driving tax" and adjusts for parking difficulty and traffic delays.
 - **Thermal Comfort Analysis:** Calculates wind-chill and temperature friction specifically for scooters and walking.
